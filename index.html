@@ -1,150 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Human Resources Management System</title>
+    <title>HRMS - Human Resource Management System</title>
+
+
     <link rel="stylesheet" href="style.css">
 
-</head>
-<body>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    <title>Employee Login | HRMS</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="employee_login.css">
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-<div class="container">
 
-    <div class="login-card">
 
-        <!-- Logo -->
-
-        <div class="logo">
-            <div class="icon">
-                <i class="fa-solid fa-shield-halved"></i>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="logo1.jpeg" alt="logo">
             </div>
+            <h4>Every workday, perfect aligned. </h4>
+
+            <div class="nav-adress">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Features</a>
+                <a href="#">Contact</a>
+            </div>
+
+
         </div>
+    </header>
 
-        <h1>Employee Login</h1>
 
-        <p class="subtitle">
-            Welcome Back! Please login to your account.
-        </p>
 
-        <!-- Form -->
 
-        <form>
+    <section class="hero" id="home">
 
-            <!-- Admin ID -->
+        <div class="hero-content">
 
-            <div class="input-box">
+            <h1>
+                Human Resource
+                <br>
+                Management System
+            </h1>
 
-                <i class="fa-regular fa-user"></i>
+            <p>
 
-                <input
-                type="text"
-                placeholder="Employee ID"
-                required>
+                Manage Employees, Attendance, Payroll,
+                Leave Requests and Reports
+                from one Modern Dashboard.
 
-            </div>
+            </p>
 
-            <!-- Email -->
+            <div class="buttons">
 
-            <div class="input-box">
 
-                <i class="fa-regular fa-envelope"></i>
+                <a href="employee.html" class="login-card employee-card">
 
-                <input
-                type="email"
-                placeholder="Email"
-                required>
+                    <div class="icon">
+                        <img src="profile.png" alt="">
+                    </div>
 
-            </div>
+                    <h3>Employee <br> Login</h3>
 
-            <!-- Password -->
+                    <span class="login-btn employee-btn">
+                        Login as Employee
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
 
-            <div class="input-box">
+                </a>
+                <a href="hr.html" class="login-card hr-card">
 
-                <i class="fa-solid fa-lock"></i>
+                    <div class="icon">
+                        <img src="profile2.jpeg" alt="">
+                    </div>
 
-                <input
-                id="password"
-                type="password"
-                placeholder="Password"
-                required>
+                    <h3>HR <br> Login</h3>
 
-                <span id="togglePassword">
-                    <i class="fa-regular fa-eye"></i>
-                </span>
+                    <span class="login-btn hr-btn">
+                        Login as HR
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
 
-            </div>
+                </a>
+                <a href="login.html" class="login-card admin-card">
 
-            <!-- Options -->
+                    <div class="icon">
+                        <img src="Unknown-1.jpeg" alt="">
+                    </div>
 
-            <div class="options">
+                    <h3>Admin <br> Login</h3>
 
-                <label>
+                    <span class="login-btn admin-btn">
+                        Login as Admin
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
 
-                    <input type="checkbox">
-
-                    Remember me
-
-                </label>
-
-                <a href="#">
-                    Forgot Password?
                 </a>
 
+
             </div>
 
-            <!-- Login Button -->
 
-            <button type="submit">
-                Login
-            </button>
-
-        </form>
-
-        <!-- Back -->
-
-        <div class="back">
-
-            <a href="index.html">
-
-                <i class="fa-solid fa-arrow-left"></i>
-
-                Back to Home
-
-            </a>
 
         </div>
 
-    </div>
+        <div class="hero-image">
 
-</div>
+            <img src="hero.jpg" alt="HRMS">
 
-<script src="admin_login.js"></script>
+        </div>
+
+    </section>
+
+
+
+    <section class="features" id="features">
+
+        <h2>Our Features</h2>
+
+        <div class="feature-container">
+
+            <div class="card">
+
+                <i class="fa-solid fa-user-group"></i>
+
+                <h3>Employee Management</h3>
+
+                <p>
+
+                    Store employee details securely.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-calendar-check"></i>
+
+                <h3>Attendance</h3>
+
+                <p>
+
+                    Track daily attendance easily.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-money-check-dollar"></i>
+
+                <h3>Payroll</h3>
+
+                <p>
+
+                    Salary Management System.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-plane-departure"></i>
+
+                <h3>Leave</h3>
+
+                <p>
+
+                    Easy Leave Approval.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-chart-column"></i>
+
+                <h3>Analytics</h3>
+
+                <p>
+
+                    Performance Graph & Reports.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <h3>Security</h3>
+
+                <p>
+
+                    100% Secure Login System.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="about" id="about">
+
+        <h2>About HRMS</h2>
+
+        <p>
+
+            Our Human Resource Management System helps
+            organizations manage employees, payroll,
+            attendance, leave requests and reports
+            efficiently with a clean and user-friendly interface.
+
+        </p>
+
+    </section>
+
+
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <div class="contact-box">
+
+            <p>
+
+                <i class="fa-solid fa-envelope"></i>
+
+                support@hrms.com
+
+            </p>
+
+            <p>
+
+                <i class="fa-solid fa-phone"></i>
+
+                +91 9876543210
+
+            </p>
+
+            <p>
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                Kolkata, India
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <footer>
+
+        <p>
+
+            ©️ 2026 HRMS |
+            Designed for Hackathon
+
+        </p>
+
+    </footer>
 
 </body>
-</html>
 
-    
-</body>
 </html>
